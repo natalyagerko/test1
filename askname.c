@@ -7,6 +7,6 @@ void askname(char *first, char *last)
     fgets(first, 255, stdin);
     first[strlen(first)-1] = '\0'; /* remove the newline at the end */
 
-    printf("NOW enter your last name: ");
+    printf("NOW enter YOUR last name: ");
     gets(last); /* buffer overflow? what's that? */
 }
